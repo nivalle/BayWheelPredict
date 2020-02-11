@@ -1,3 +1,5 @@
 # Bay Wheel Predict
 
-This project looks at the BayWheel bikesharing dataset (source: https://www.lyft.com/bikes/bay-wheels/system-data). We are interested in predicting certain quantities of interest using known covariates.
+This project looks at the BayWheel bikesharing dataset (source: https://www.lyft.com/bikes/bay-wheels/system-data). The idea of this project is to use predictive modeling and optimization to identify optimal placement of bike docking stations in the San Francisco Metro Area. The company BayWheel (now Lyft) has been providing bike sharing services around San Francisco and the Bay Area, and has also been publishing the data they collect about the usage of their stations on a monthly basis. 
+
+The first part of this notebook uses monthly usage data and uses it to construct a predictive model of estimated bike demand across San Francisco, indexed by geo coordinates. Next, using the demand model, we estimate the total commuting costs for potential bike users across SF. Finally, we proceed to optimize for the location of potential future bike stations with the objective of minimizing the city-wide total commuting time. In particular, we can then re-optimize the best locations for bike sharing stations, accounting for actual bike needs. 
