@@ -1,4 +1,4 @@
-# Bike docking station location optimization with BayWheels usage data
+# BayWheel station location optimization
 
 
 ## Project description
