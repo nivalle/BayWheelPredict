@@ -6,6 +6,8 @@ The proejct herein starts with bike usage data from existing bike sharing docks,
  - Real bike sharing data is analyzed to quantify bike demand for existing bike docking stations. 
  - Bike demand above is  used to teach a K-neirest neighbor (KNN) algorithm, to predict bike demand across the city at locatoins that do not currently have docking stations.
  - An evolutionary algorithm is finally used to minimize walking distance to a bike docking station, based on the demand predicted by the KNN algorithm. Optimization can be done for any n nubmer of stations across the city, and the output is the optimized location for n stations. 
+ 
+![Example optimized bike docking station distribution across SF](https://github.com/nivalle/BayWheelPredict/blob/master/Figures/ExampleBikeStationOptimization.png)
 
 ## Useful links 
 - Data source: https://www.lyft.com/bikes/bay-wheels/system-data
