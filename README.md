@@ -12,6 +12,5 @@ The proejct herein starts with bike usage data from existing bike sharing docks,
 
 ## Useful links 
 - Data source: https://www.lyft.com/bikes/bay-wheels/system-data
-- Evolutionary strategy: https://en.wikipedia.org/wiki/Evolution_strategy
 
 
